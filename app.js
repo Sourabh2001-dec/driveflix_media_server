@@ -4,10 +4,7 @@ var cookieParser = require("cookie-parser");
 var logger = require("morgan");
 
 var indexRouter = require("./routes/index");
-var usersRouter = require("./routes/users");
 var videoRouter = require("./routes/video");
-var chunkRouter = require("./routes/chunk")
-var streamRouter = require("./routes/stream")
 
 var app = express();
 
